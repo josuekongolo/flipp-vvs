@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EFF6FF"/>
+      <stop offset="100%" style="stop-color:#F0FDFA"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="500" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Bathroom outline -->
+  <rect x="100" y="80" width="400" height="340" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Shower area -->
+  <rect x="130" y="110" width="160" height="200" rx="8" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="175" y="120" width="70" height="10" rx="5" fill="#9CA3AF"/>
+  <circle cx="210" cy="180" r="25" fill="#E5E7EB"/>
+  <path d="M195 165 L225 195 M195 195 L225 165" stroke="#9CA3AF" stroke-width="2"/>
+
+  <!-- Toilet -->
+  <ellipse cx="400" cy="300" rx="40" ry="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <ellipse cx="400" cy="270" rx="30" ry="20" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+
+  <!-- Sink -->
+  <rect x="320" y="130" width="140" height="80" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <ellipse cx="390" cy="170" rx="35" ry="20" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="385" y="120" width="10" height="20" rx="5" fill="#6B7280"/>
+
+  <!-- Plumber figure -->
+  <g transform="translate(200, 250)">
+    <!-- Body -->
+    <rect x="20" y="60" width="80" height="100" rx="8" fill="#2563EB"/>
+    <!-- Head -->
+    <circle cx="60" cy="35" r="30" fill="#FCD34D"/>
+    <!-- Hard hat -->
+    <path d="M30 25 Q60 5 90 25 L90 35 L30 35 Z" fill="#F97316"/>
+    <rect x="25" y="35" width="70" height="8" rx="4" fill="#EA580C"/>
+    <!-- Arms -->
+    <rect x="0" y="70" width="25" height="60" rx="8" fill="#2563EB"/>
+    <rect x="95" y="70" width="25" height="60" rx="8" fill="#2563EB"/>
+    <!-- Hands -->
+    <circle cx="12" cy="135" r="10" fill="#FCD34D"/>
+    <circle cx="108" cy="135" r="10" fill="#FCD34D"/>
+    <!-- Wrench in hand -->
+    <rect x="100" y="120" width="40" height="8" rx="4" fill="#6B7280" transform="rotate(-30 120 124)"/>
+    <!-- Legs -->
+    <rect x="30" y="155" width="25" height="60" rx="8" fill="#374151"/>
+    <rect x="65" y="155" width="25" height="60" rx="8" fill="#374151"/>
+    <!-- Boots -->
+    <rect x="25" y="210" width="35" height="15" rx="6" fill="#1F2937"/>
+    <rect x="60" y="210" width="35" height="15" rx="6" fill="#1F2937"/>
+  </g>
+
+  <!-- Water droplets decoration -->
+  <g fill="url(#blueGrad)" opacity="0.3">
+    <path d="M520 100 C520 100 510 115 510 120 C510 125 514 128 520 128 C526 128 530 125 530 120 C530 115 520 100 520 100 Z"/>
+    <path d="M550 150 C550 150 540 165 540 170 C540 175 544 178 550 178 C556 178 560 175 560 170 C560 165 550 150 550 150 Z"/>
+    <path d="M80 350 C80 350 70 365 70 370 C70 375 74 378 80 378 C86 378 90 375 90 370 C90 365 80 350 80 350 Z"/>
+  </g>
+</svg>

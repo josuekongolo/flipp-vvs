@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="heatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF3C7"/>
+      <stop offset="100%" style="stop-color:#FEE2E2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" rx="16" fill="url(#heatBg)"/>
+
+  <!-- Water heater tank -->
+  <rect x="180" y="50" width="140" height="250" rx="20" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="3"/>
+  <rect x="200" y="70" width="100" height="40" rx="8" fill="#E5E7EB"/>
+  <circle cx="250" cy="90" r="12" fill="#EF4444"/>
+  <text x="250" y="95" font-family="Inter, sans-serif" font-size="10" fill="white" text-anchor="middle">60</text>
+
+  <!-- Pipes -->
+  <g stroke="#6B7280" stroke-width="12" fill="none">
+    <path d="M210 300 L210 350 L100 350"/>
+    <path d="M290 300 L290 350 L400 350"/>
+  </g>
+
+  <!-- Heat waves -->
+  <g stroke="#EF4444" stroke-width="3" fill="none" opacity="0.6">
+    <path d="M230 130 Q220 150 230 170 Q240 190 230 210"/>
+    <path d="M250 130 Q240 150 250 170 Q260 190 250 210"/>
+    <path d="M270 130 Q260 150 270 170 Q280 190 270 210"/>
+  </g>
+
+  <!-- Radiator -->
+  <g transform="translate(50, 150)">
+    <rect x="0" y="0" width="80" height="120" rx="4" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="2"/>
+    <rect x="10" y="10" width="10" height="100" rx="2" fill="#E5E7EB"/>
+    <rect x="25" y="10" width="10" height="100" rx="2" fill="#E5E7EB"/>
+    <rect x="40" y="10" width="10" height="100" rx="2" fill="#E5E7EB"/>
+    <rect x="55" y="10" width="10" height="100" rx="2" fill="#E5E7EB"/>
+  </g>
+
+  <!-- Floor heating pattern -->
+  <g transform="translate(350, 180)">
+    <path d="M0 0 Q30 30 0 60 Q-30 90 0 120" stroke="#F97316" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M30 0 Q60 30 30 60 Q0 90 30 120" stroke="#F97316" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M60 0 Q90 30 60 60 Q30 90 60 120" stroke="#F97316" stroke-width="4" fill="none" opacity="0.5"/>
+  </g>
+</svg>

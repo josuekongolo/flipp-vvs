@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 45" width="200" height="45">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Water Droplet Icon -->
+  <g transform="translate(0, 4)">
+    <!-- Outer droplet shape -->
+    <path d="M18.5 2C18.5 2 8 14 8 22.5C8 28.5 12.5 35 18.5 35C24.5 35 29 28.5 29 22.5C29 14 18.5 2 18.5 2Z"
+          fill="url(#logoGradient)"/>
+    <!-- Inner wave/pipe detail -->
+    <path d="M14 20C14 20 16 18 18.5 18C21 18 23 20 23 20"
+          stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M12 25C12 25 15 22 18.5 22C22 22 25 25 25 25"
+          stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Company Name -->
+  <text x="40" y="30" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="26" font-weight="700" fill="#1F2937">
+    <tspan fill="url(#logoGradient)">Flipp</tspan><tspan fill="#1F2937"> VVS</tspan>
+  </text>
+</svg>

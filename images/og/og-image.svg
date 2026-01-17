@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="ogAccentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA"/>
+      <stop offset="100%" style="stop-color:#2DD4BF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogBgGradient)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="200" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="100" cy="530" r="150" fill="rgba(255,255,255,0.05)"/>
+
+  <!-- Water Droplet Icon -->
+  <g transform="translate(150, 190)">
+    <path d="M100 0C100 0 20 100 20 165C20 215 55 250 100 250C145 250 180 215 180 165C180 100 100 0 100 0Z"
+          fill="#FFFFFF" opacity="0.95"/>
+    <path d="M55 140C55 140 72 120 100 120C128 120 145 140 145 140"
+          stroke="url(#ogBgGradient)" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M45 180C45 180 67 155 100 155C133 155 155 180 155 180"
+          stroke="url(#ogBgGradient)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Company Name -->
+  <text x="400" y="290" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="90" font-weight="700" fill="#FFFFFF">
+    Flipp VVS
+  </text>
+
+  <!-- Tagline -->
+  <text x="400" y="370" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="36" font-weight="500" fill="rgba(255,255,255,0.9)">
+    Din moderne rorlegger i Stavanger
+  </text>
+
+  <!-- Contact Info -->
+  <text x="400" y="470" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="28" font-weight="400" fill="rgba(255,255,255,0.8)">
+    993 39 988 | post@flippvvs.no
+  </text>
+
+  <!-- Bottom Bar -->
+  <rect x="0" y="580" width="1200" height="50" fill="rgba(0,0,0,0.2)"/>
+  <text x="600" y="615" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="22" font-weight="500" fill="rgba(255,255,255,0.9)" text-anchor="middle">
+    Profesjonelt VVS-arbeid med fokus pa kvalitet og kommunikasjon
+  </text>
+</svg>

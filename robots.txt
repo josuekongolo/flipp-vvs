@@ -1,0 +1,22 @@
+# Robots.txt for Flipp VVS AS
+# https://flippvvs.no
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://flippvvs.no/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

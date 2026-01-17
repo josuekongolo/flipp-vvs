@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bgWork" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EFF6FF"/>
+      <stop offset="100%" style="stop-color:#F0FDFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="400" rx="16" fill="url(#bgWork)"/>
+
+  <!-- Pipes on wall -->
+  <g stroke="#9CA3AF" stroke-width="8" fill="none">
+    <path d="M50 100 L50 300 L150 300"/>
+    <path d="M150 100 L150 200 L250 200"/>
+    <circle cx="50" cy="100" r="8" fill="#6B7280"/>
+    <circle cx="150" cy="100" r="8" fill="#6B7280"/>
+    <circle cx="150" cy="300" r="8" fill="#6B7280"/>
+  </g>
+
+  <!-- Valve -->
+  <circle cx="100" cy="200" r="20" fill="#EF4444" stroke="#DC2626" stroke-width="3"/>
+  <rect x="95" y="170" width="10" height="15" fill="#B91C1C"/>
+
+  <!-- Plumber working -->
+  <g transform="translate(250, 150)">
+    <!-- Body kneeling -->
+    <ellipse cx="60" cy="140" rx="50" ry="30" fill="#2563EB"/>
+    <!-- Head -->
+    <circle cx="80" cy="60" r="28" fill="#FCD34D"/>
+    <!-- Hard hat -->
+    <path d="M52 52 Q80 35 108 52 L108 60 L52 60 Z" fill="#F97316"/>
+    <rect x="48" y="60" width="64" height="7" rx="3" fill="#EA580C"/>
+    <!-- Arm reaching -->
+    <path d="M30 100 Q0 80 -20 120" stroke="#2563EB" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <!-- Hand with tool -->
+    <circle cx="-25" cy="125" r="10" fill="#FCD34D"/>
+    <rect x="-60" y="118" width="40" height="8" rx="4" fill="#6B7280"/>
+    <!-- Other arm -->
+    <path d="M90 100 Q120 110 110 140" stroke="#2563EB" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <circle cx="110" cy="145" r="10" fill="#FCD34D"/>
+    <!-- Legs -->
+    <ellipse cx="40" cy="170" rx="25" ry="15" fill="#374151"/>
+    <ellipse cx="80" cy="170" rx="25" ry="15" fill="#374151"/>
+  </g>
+
+  <!-- Toolbox -->
+  <rect x="380" y="280" width="80" height="50" rx="4" fill="#DC2626"/>
+  <rect x="380" y="275" width="80" height="10" rx="2" fill="#B91C1C"/>
+  <rect x="412" y="265" width="16" height="15" rx="2" fill="#7F1D1D"/>
+
+  <!-- Water drops -->
+  <g fill="#3B82F6" opacity="0.6">
+    <ellipse cx="50" cy="320" rx="8" ry="10"/>
+    <ellipse cx="70" cy="335" rx="6" ry="8"/>
+    <ellipse cx="55" cy="350" rx="5" ry="6"/>
+  </g>
+</svg>

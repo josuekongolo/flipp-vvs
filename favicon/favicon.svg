@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="favGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#favGradient)"/>
+
+  <!-- Water Droplet -->
+  <path d="M16 5C16 5 8 13 8 19C8 24 11.5 28 16 28C20.5 28 24 24 24 19C24 13 16 5 16 5Z"
+        fill="#FFFFFF"/>
+
+  <!-- Wave detail -->
+  <path d="M12 17C12 17 13.5 15.5 16 15.5C18.5 15.5 20 17 20 17"
+        stroke="url(#favGradient)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M11 21C11 21 13 19 16 19C19 19 21 21 21 21"
+        stroke="url(#favGradient)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+</svg>
